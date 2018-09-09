@@ -34,7 +34,7 @@ struct LoginCoordinator: Coordinator {
             self.viewController?.present(homeViewController, animated: true)
         case .forgetPassword:
             let forgetPasswordViewController = ForgetPasswordViewController.instantiate()
-            self.viewController?.present(signInViewController, animated: true)
+            self.viewController?.present(forgetPasswordViewController, animated: true)
         }
     }
 }
@@ -53,8 +53,8 @@ final class HomeViewController: RoutableViewController {
     }
 }
 
-struct SignInConfigurator: Configurator {
-    typealias VC = SignInViewController
+struct HomeConfigurator: Configurator {
+    typealias VC = HomeViewController
     static func configure(with vc: VC, dependency: VC.Dependency) {
         let coordinator = HomeCoordinator()
         vc.viewModel = HomeViewModel(coordinator: coordinator, user: dependency)
