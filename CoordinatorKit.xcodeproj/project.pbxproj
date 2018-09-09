@@ -11,7 +11,7 @@
 		0DD8FC58214523650075D874 /* CoordinatorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8FC57214523650075D874 /* CoordinatorKitTests.swift */; };
 		0DD8FC5A214523650075D874 /* CoordinatorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD8FC4C214523650075D874 /* CoordinatorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DD8FC64214523910075D874 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8FC63214523910075D874 /* Coordinator.swift */; };
-		0DD8FC66214524370075D874 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8FC65214524370075D874 /* Configurator.swift */; };
+		0DD8FC66214524370075D874 /* RoutableViewController+Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8FC65214524370075D874 /* RoutableViewController+Configurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		0DD8FC57214523650075D874 /* CoordinatorKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorKitTests.swift; sourceTree = "<group>"; };
 		0DD8FC59214523650075D874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DD8FC63214523910075D874 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		0DD8FC65214524370075D874 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		0DD8FC65214524370075D874 /* RoutableViewController+Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoutableViewController+Configurator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				0DD8FC4C214523650075D874 /* CoordinatorKit.h */,
 				0DD8FC4D214523650075D874 /* Info.plist */,
 				0DD8FC63214523910075D874 /* Coordinator.swift */,
-				0DD8FC65214524370075D874 /* Configurator.swift */,
+				0DD8FC65214524370075D874 /* RoutableViewController+Configurator.swift */,
 			);
 			path = CoordinatorKit;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD8FC66214524370075D874 /* Configurator.swift in Sources */,
+				0DD8FC66214524370075D874 /* RoutableViewController+Configurator.swift in Sources */,
 				0DD8FC64214523910075D874 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
