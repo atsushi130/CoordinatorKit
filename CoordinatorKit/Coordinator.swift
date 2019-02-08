@@ -10,7 +10,7 @@ import UIKit
 
 public protocol Coordinator {
     associatedtype Route
-    weak var viewController: UIViewController? { get set }
+    var viewController: UIViewController? { get set }
     init()
     init(viewController: UIViewController)
     func transition(to route: Route)
