@@ -6,6 +6,7 @@
 
 <p align="center">
     <a href=".license-mit"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a> 
+    <img src="https://img.shields.io/badge/Swift-4.2-ffac45.svg">
 </p>
 
 ## Installation
